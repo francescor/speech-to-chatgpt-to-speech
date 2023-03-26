@@ -5,7 +5,7 @@ Would you like to use ChatGPT simply by speaking and listening? this simlple bas
 
 Demo video 
 
-![Watch the video](https://www.youtube.com/watch?v=n-De2hJPQ-s)
+[![Demo Video](https://share.gifyoutube.com/KzB6Gb.gif)]([https://www.youtube.com/watch?v=ek1j272iAmc](https://www.youtube.com/watch?v=n-De2hJPQ-s))
 
 
 # Background
