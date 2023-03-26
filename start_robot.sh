@@ -36,7 +36,7 @@ while [[ "${my_question::4}" != "stop" ]]; do
   while [[ "$my_question" == "" ]]; do
     echo
     echo "...listening"
-    my_question=`nerd-dictation begin --input=SOX  --output=STDOUT --defer-output --timeout 1`
+    my_question=`nerd-dictation begin --input=SOX  --output=STDOUT --defer-output --timeout 2 2> /dev/null`
     # my_question="How many months in a year?"
     echo
     echo -n "YOU: "
@@ -47,11 +47,10 @@ while [[ "${my_question::4}" != "stop" ]]; do
     fi
   done
   if [[ "${my_question::4}" != "stop" ]];  then
-    echo -n "ROBOT: you said: "
-    echo $my_question 
-    echo "ROBOT: Say NO if I'm wrong, or just wait"
-    espeak -v $LANG "\"You said: ${my_question}\""
-    espeak -v $LANG "Say NO if I'm wrong, or just wait"
+    message="You said: ${my_question}"
+    say_message
+    message="Say NO if I'm wrong, or just wait"
+    say_message
     echo
     echo "...listening"
     confirmed=`nerd-dictation begin --input=SOX  --output=STDOUT --defer-output --timeout 1 2> /dev/null`
