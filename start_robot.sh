@@ -17,11 +17,15 @@
 #
 # vosks language models in 
 #   ~/.config/nerd-dictation
+
+# set talking language: en,en-us,de,es,it,pt,nl,ru,.
+# if you change language then you better translate the below messages
+LANG=en
 clear
 echo "ROBOT: Ask me anything"
 echo "To exit say: stop"
-espeak "Ask me anything"
-espeak "To exit say: stop"
+espeak -v $LANG "Ask me anything"
+espeak -v $LANG "To exit say: stop"
 my_question=""
 chat_session=$(mktemp /tmp/speech.XXXXXXXXX)
 rm "$chat_session"
@@ -36,15 +40,15 @@ while [[ "${my_question::4}" != "stop" ]]; do
     echo $my_question
     if [[ "$my_question" == "" ]];  then
       echo "ROBOT: I don't get it, Please repeat"
-      espeak "I don't get it, Please repeat"
+      espeak -v $LANG "I don't get it, Please repeat"
     fi
   done
   if [[ "${my_question::4}" != "stop" ]];  then
     echo -n "ROBOT: you said: "
     echo $my_question 
     echo "ROBOT: Say NO if I'm wrong, or just wait"
-    espeak "\"You said: ${my_question}\""
-    espeak "Say NO if I'm wrong, or just wait"
+    espeak -v $LANG "\"You said: ${my_question}\""
+    espeak -v $LANG "Say NO if I'm wrong, or just wait"
     echo
     echo "...listening"
     confirmed=`nerd-dictation begin --input=SOX  --output=STDOUT --defer-output --timeout 1 2> /dev/null`
@@ -60,17 +64,18 @@ while [[ "${my_question::4}" != "stop" ]]; do
       echo -n "ChatGPT: "
       echo $answer
       # echo "\"${answer}\""
-      espeak -v en-us+f5  "\"${answer}\""
+      espeak -v ${LANG}+f5  "\"${answer}\""
       my_question=""
       echo
       echo "ROBOT: anything else?"
-      espeak "anything else?"
+      espeak -v $LANG "anything else?"
     else
       echo "ROBOT: Ok, sorry I did not get it; please repeat!"
-      espeak "Ok, sorry I did not get it; please repeat!"
+      espeak -v $LANG "Ok, sorry I did not get it; please repeat!"
       my_question=""
     fi
   fi
 done
 echo "Ok, I stop!"
 espeak "Ok, I stop!"
+espeak -v $LANG "Ok, I stop!"
