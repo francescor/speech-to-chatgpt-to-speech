@@ -18,14 +18,17 @@
 # vosks language models in 
 #   ~/.config/nerd-dictation
 
+function say_message() {
+echo "ROBOT: $message"
+espeak -v $LANG "${message}"
+}
+
 # set talking language: en,en-us,de,es,it,pt,nl,ru,.
 # if you change language then you better translate the below messages
 LANG=en
 clear
-echo "ROBOT: Ask me anything"
-echo "To exit say: stop"
-espeak -v $LANG "Ask me anything"
-espeak -v $LANG "To exit say: stop"
+message="Ask me anything.  To exit say: STOP"
+say_message
 my_question=""
 chat_session=$(mktemp /tmp/speech.XXXXXXXXX)
 rm "$chat_session"
@@ -33,14 +36,14 @@ while [[ "${my_question::4}" != "stop" ]]; do
   while [[ "$my_question" == "" ]]; do
     echo
     echo "...listening"
-    my_question=`nerd-dictation begin --input=SOX  --output=STDOUT --defer-output --timeout 2`
+    my_question=`nerd-dictation begin --input=SOX  --output=STDOUT --defer-output --timeout 1`
     # my_question="How many months in a year?"
     echo
     echo -n "YOU: "
     echo $my_question
     if [[ "$my_question" == "" ]];  then
-      echo "ROBOT: I don't get it, Please repeat"
-      espeak -v $LANG "I don't get it, Please repeat"
+      message="I don't get it, Please repeat"
+      say_message
     fi
   done
   if [[ "${my_question::4}" != "stop" ]];  then
@@ -63,19 +66,17 @@ while [[ "${my_question::4}" != "stop" ]]; do
       answer=`sgpt --chat $chat_session "\"${my_question}\""`
       echo -n "ChatGPT: "
       echo $answer
-      # echo "\"${answer}\""
       espeak -v ${LANG}+f5  "\"${answer}\""
       my_question=""
       echo
-      echo "ROBOT: anything else?"
-      espeak -v $LANG "anything else?"
+      message="anything else?"
+      say_message
     else
-      echo "ROBOT: Ok, sorry I did not get it; please repeat!"
-      espeak -v $LANG "Ok, sorry I did not get it; please repeat!"
+      message="Ok, sorry I did not get it; please repeat!"
+      say_message
       my_question=""
     fi
   fi
 done
-echo "Ok, I stop!"
-espeak "Ok, I stop!"
-espeak -v $LANG "Ok, I stop!"
+message="Ok, I stop!"
+say_message
