@@ -1,8 +1,9 @@
 # Speech-to-ChatGpt-to-Speech
 
-Would you like to use ChatGPT simply by speaking and listening?
+Would you like to use ChatGPT simply by speaking and listening? this simlple bash script will let you play a bit :) 
 
-# Why
+
+# Background
 
 This afternoon I played a bit with https://github.com/filippofinke/cli-gpt, then tired 
 of typing and reading I desired the ability to speak to ChatGPT while walking around my house and hear its responses.
