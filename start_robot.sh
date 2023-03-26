@@ -74,4 +74,3 @@ while [[ "${my_question::4}" != "stop" ]]; do
 done
 echo "Ok, I stop!"
 espeak "Ok, I stop!"
-
