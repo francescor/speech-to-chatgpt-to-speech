@@ -4,7 +4,9 @@ Would you like to use ChatGPT simply by speaking and listening? this simlple bas
 
 
 Demo video 
-https://dantealighieri.net/demo/demo.mp4
+
+https://ufile.io/0sg29iy1
+
 
 # Background
 
