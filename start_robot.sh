@@ -23,8 +23,8 @@ echo "To exit say: stop"
 espeak "Ask me anything"
 espeak "To exit say: stop"
 my_question=""
-chat_session="$(mktemp XXXXXXXXX)"
-
+chat_session=$(mktemp /tmp/speech.XXXXXXXXX)
+rm "$chat_session"
 while [[ "${my_question::4}" != "stop" ]]; do
   while [[ "$my_question" == "" ]]; do
     echo
