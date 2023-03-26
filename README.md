@@ -1,14 +1,13 @@
 # Speech-to-ChatGpt-to-Speech
 
-Fancy using ChatGPT just by talking and listening?
-
+Would you like to use ChatGPT simply by speaking and listening?
 
 # Why
 
 This afternoon I played a bit with https://github.com/filippofinke/cli-gpt, then tired 
-of typing and reading I wanted to be able to speech to ChatGPT, and listen the answer back.
+of typing and reading I desired the ability to speak to ChatGPT while walking around my house and hear its responses.
 
-This is just a game, nothing serious
+This is just a game, nothing serious :)
 
 
 # Requirements:
