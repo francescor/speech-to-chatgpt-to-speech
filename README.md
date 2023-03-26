@@ -1,6 +1,6 @@
 # Speech-to-ChatGpt-to-Speech
 
-Would you like to use ChatGPT simply by speaking and listening? this simlple bash script will let you play a bit :) 
+Would you like to use ChatGPT simply by speaking and listening? this simple bash script will let you play a bit :) 
 
 
 Demo video 
@@ -19,8 +19,11 @@ This is just a game, nothing serious :)
 
 * https://espeak.sourceforge.net `yum install espeak`
 * https://github.com/ideasman42/nerd-dictation (vosks, sox, xdotool...)
-* https://github.com/TheR1D/shell_gpt
+* https://github.com/TheR1D/shell_gpt  (the real cool stuff)
 
+# privacy
+
+No audios are sent over the Internet, the speech recognition is local to your laptop.
 
 ### Env variables:
 
