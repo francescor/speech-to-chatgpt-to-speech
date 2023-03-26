@@ -21,9 +21,13 @@ This is just a game, nothing serious :)
 * https://github.com/ideasman42/nerd-dictation (vosks, sox, xdotool...)
 * https://github.com/TheR1D/shell_gpt  (the real cool stuff)
 
-# privacy
+# Privacy
 
 No audios are sent over the Internet, the speech recognition is local to your laptop.
+
+# Only English? 
+
+ChatGPT can understand and generate text in English, Spanish, French, German, Italian, Portuguese, Dutch, Russian, Chinese, Japanese, Korean, and many more, the same for speech recognitions: see https://alphacephei.com/vosk/models
 
 ### Env variables:
 
