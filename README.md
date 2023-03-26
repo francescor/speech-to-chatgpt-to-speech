@@ -3,11 +3,8 @@
 Would you like to use ChatGPT simply by speaking and listening? this simlple bash script will let you play a bit :) 
 
 
-Testing video 
-
-![image](https://user-images.githubusercontent.com/6877923/102915300-d8944e00-4481-11eb-8e93-f7a57c21b830.png)
-
-
+Demo video 
+https://github.com/francescor/speech-to-chatgpt-to-speech/blob/main/demo.mp4
 
 # Background
 
