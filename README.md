@@ -4,7 +4,7 @@ Would you like to use ChatGPT simply by speaking and listening? this simlple bas
 
 
 Demo video 
-https://github.com/francescor/speech-to-chatgpt-to-speech/blob/main/demo.mp4
+https://dantealighieri.net/demo/demo.mp4
 
 # Background
 
