@@ -29,6 +29,8 @@ No audios are sent over the Internet, the speech recognition is local to your la
 
 ChatGPT can understand and generate text in English, Spanish, French, German, Italian, Portuguese, Dutch, Russian, Chinese, Japanese, Korean, and many more, the same for speech recognitions: see https://alphacephei.com/vosk/models
 
+As an example see `start_robot_italiano.sh` for Italian.
+
 # Let's try
 
 
