@@ -3,6 +3,12 @@
 Would you like to use ChatGPT simply by speaking and listening? this simlple bash script will let you play a bit :) 
 
 
+
+<video width="320" height="240" controls>
+  <source src="demo.mp4" type="video/mp4">
+  Your browser does not support the video tag.
+</video>
+
 # Background
 
 This afternoon I played a bit with https://github.com/filippofinke/cli-gpt, then tired 
