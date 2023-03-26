@@ -42,7 +42,7 @@ vosks language models in
 
 ## Installation
 
-It is just a basic bash script, so execute:
+It is just a basic bash script, so download & execute:
 
 ```
 ./start_robot.sh
