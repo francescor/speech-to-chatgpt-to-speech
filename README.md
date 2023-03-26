@@ -1,4 +1,5 @@
-# speech-to-chatgpt-to-speech
+# Speech-to-ChatGpt-to-Speech
+
 Fancy using ChatGPT just by talking and listening?
 
 
