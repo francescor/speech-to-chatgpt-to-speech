@@ -9,7 +9,7 @@ Demo video
 
 Demo in Github 
 
-https://raw.githubusercontent.com/francescor/speech-to-chatgpt-to-speech.git/master/.github/images/.github/images/demo.mov
+https://raw.githubusercontent.com/francescor/speech-to-chatgpt-to-speech/main/.github/images/demo.mov
 
 # Background
 
