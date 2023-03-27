@@ -7,9 +7,11 @@ Demo video
 
 [![Watch the video](https://github.com/francescor/speech-to-chatgpt-to-speech/raw/main/demo_video/video_preview.png)](https://www.youtube.com/watch?v=n-De2hJPQ-s)
 
-Demo in Github 
+Demo Video 
 
-https://raw.githubusercontent.com/francescor/speech-to-chatgpt-to-speech/main/.github/images/demo.mov
+[![Watch the video](https://github.com/francescor/speech-to-chatgpt-to-speech/raw/main/demo_video/video_preview.png)](https://raw.githubusercontent.com/francescor/speech-to-chatgpt-to-speech/main/.github/images/demo.mov)
+
+[View in youtube](https://www.youtube.com/watch?v=n-De2hJPQ-s)
 
 # Background
 
