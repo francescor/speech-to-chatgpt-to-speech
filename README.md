@@ -29,7 +29,7 @@ No audios are sent over the Internet, the speech recognition is local to your la
 
 ChatGPT can understand and generate text in English, Spanish, French, German, Italian, Portuguese, Dutch, Russian, Chinese, Japanese, Korean, and many more, the same for speech recognitions: see https://alphacephei.com/vosk/models
 
-As an example see `start_robot_italiano.sh` for Italian.
+As an example see `speech_to_chatgpt__sample_of_a_translation_to_italian.sh` for Italian.
 
 # Let's try
 
@@ -37,7 +37,7 @@ As an example see `start_robot_italiano.sh` for Italian.
 It is just a basic bash script, so to install end execute download & run:
 
 ```
-./start_robot.sh
+./speech_to_chatgpt.sh
 ```
 ### Env variables:
 
@@ -61,7 +61,7 @@ vosks language models in
 
 
 ```
-./start_robot.sh
+./speech_to_chatgpt.sh
 ROBOT: Ask me anything
 To exit say: stop
 
