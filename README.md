@@ -5,7 +5,7 @@ Would you like to use ChatGPT simply by speaking and listening? this simple bash
 
 Demo video 
 
-[![Watch the video](https://github.com/francescor/speech-to-chatgpt-to-speech/raw/main/video_preview.png)](https://www.youtube.com/watch?v=n-De2hJPQ-s)
+[![Watch the video](https://github.com/francescor/speech-to-chatgpt-to-speech/raw/main/demo_video/video_preview.png)](https://www.youtube.com/watch?v=n-De2hJPQ-s)
 
 # Background
 
