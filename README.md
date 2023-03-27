@@ -7,6 +7,10 @@ Demo video
 
 [![Watch the video](https://github.com/francescor/speech-to-chatgpt-to-speech/raw/main/demo_video/video_preview.png)](https://www.youtube.com/watch?v=n-De2hJPQ-s)
 
+Demo in Github 
+
+https://raw.githubusercontent.com/francescor/speech-to-chatgpt-to-speech.git/master/.github/images/.github/images/demo.mp4
+
 # Background
 
 This afternoon I played a bit with https://github.com/TheR1D/shell_gpt, then tired 
