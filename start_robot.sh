@@ -35,8 +35,7 @@ function say_message() {
 say_message "Ask me anything. To exit say: STOP"
 
 my_question=""
-chat_session=$(mktemp /tmp/speech.XXXXXXXXX)
-rm "$chat_session"
+chat_session=$(openssl rand -base64 5)
 
 while [[ "${my_question::4}" != "stop" ]]; do
   while [[ "$my_question" == "" ]]; do
