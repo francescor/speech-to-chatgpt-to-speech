@@ -2,21 +2,10 @@
 #
 # https://github.com/francescor/speech-to-chatgpt-to-speech
 #
-# Simple script that:
-#    * listen you talking (speech to text)
-#    * ask ChatGPT, and
-#    * speech out the answer (speech synthesizer)
-#
-# Requirements:
-#   https://espeak.sourceforge.net `yum install espeak`
-#   https://github.com/ideasman42/nerd-dictation (vosks, sox, xdotool...)
-#   https://github.com/TheR1D/shell_gpt
-# Env variables:
-#   export OPENAI_API_KEY=XXXXXXXXXXXXX
-#   export SOX_OPTS="....."
-#
-# vosks language models in 
-#   ~/.config/nerd-dictation
+
+# Esempio di funzionamento in Italiano, ma su codice vecchio
+# meglio se prendi lo script iniziale, e semplicemente traduci i messaggi
+# dall'Inglese: poi imposti LANG=it ma devi anche cambiare lingua in vosk-model
 
 function say_message() {
 echo "ROBOT: $message"
