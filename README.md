@@ -9,7 +9,7 @@ Demo video
 
 # Background
 
-This afternoon I played a bit with https://github.com/filippofinke/cli-gpt, then tired 
+This afternoon I played a bit with https://github.com/TheR1D/shell_gpt, then tired 
 of typing and reading I desired the ability to speak to ChatGPT while walking around my house and hear its responses.
 
 This is just a game, nothing serious :)
