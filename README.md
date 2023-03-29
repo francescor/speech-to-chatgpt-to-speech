@@ -105,3 +105,4 @@ Ok, I stop!
 * https://gigq.com/@justin/109453980426756736 using Wisper https://github.com/openai/whisper
 * https://github.com/RetricSu/chatGPT-auto-speech Brave app (experimental)
 * https://news.ycombinator.com/item?id=33858035 (did not get how it work)
+* https://github.com/franalgaba/chatgpt-telegram-bot-serverless 
